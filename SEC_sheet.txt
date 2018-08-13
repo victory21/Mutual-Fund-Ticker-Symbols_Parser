@@ -1,0 +1,407 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ENG">
+<head>
+<title>EDGAR Search Results</title>
+<link href="/include/interactive.css" rel="stylesheet" type="text/css" />
+<link rel="alternate" type="application/atom+xml" title="ATOM" href="/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0000816153&amp;type=&amp;dateb=&amp;owner=include&amp;count=40&amp;output=atom" />
+
+</head>
+<body style="margin: 0">
+<!-- SEC Web Analytics - For information please visit: http://www.sec.gov/privacy.htm#collectedinfo -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TD3BKV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TD3BKV');</script>
+<!-- End SEC Web Analytics -->
+
+<!-- BEGIN BANNER -->
+<div id="headerTop">
+   <div id="Nav"><a href="/index.htm">Home</a> | <a href="/cgi-bin/browse-edgar?action=getcurrent">Latest Filings</a> | <a href="javascript:history.back()">Previous Page</a></div>
+   <div id="seal"><a href="/index.htm"><img src="/images/sealTop.gif" alt="SEC Seal" border="0" /></a></div>
+   <div id="secWordGraphic"><img src="/images/bannerTitle.gif" alt="SEC Banner" /></div>
+</div>
+<div id="headerBottom">
+<div id="secBetaGraphic"><a href="/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0000816153&amp;type=&amp;dateb=&amp;owner=include&amp;count=100&amp;output=xml"><img src="/images/edgar_button_usasearch.png" alt="EDGAR USA Search" style="border-style: none"/></a></div>   <div id="PageTitle">EDGAR Search Results</div>
+</div>
+<!-- END BANNER -->
+
+
+<!-- BEGIN BREADCRUMBS -->
+<div id="breadCrumbs">
+   <ul>
+      <li><a href="/index.htm">SEC Home</a> &#187;</li>
+      <li><a href="/edgar/searchedgar/webusers.htm">Search the Next-Generation EDGAR System</a> &#187;</li>
+      <li><a href="/edgar/searchedgar/companysearch.html">Company Search</a> &#187;</li>
+      <li class="last">Current Page</li>
+   </ul>
+</div>
+<!-- END BREADCRUMBS -->
+
+<div id="contentDiv">
+   <!-- START FILER DIV -->
+   <div style="margin: 15px 0 10px 0; padding: 3px; overflow: hidden; background-color: #BCD6F8;">
+      <div class="mailer">Mailing Address
+         <span class="mailerAddress">2300 NORTH RIDGETOP ROAD</span>
+         <span class="mailerAddress">
+SANTA FE NM 87506-8361         </span>
+      </div>
+      <div class="mailer">Business Address
+         <span class="mailerAddress">2300 NORTH RIDGETOP ROAD</span>
+         <span class="mailerAddress">
+SANTA FE NM 87506-8361         </span>
+         <span class="mailerAddress">5059840200</span>
+      </div>
+      <div class="companyInfo">
+         <span class="companyName">THORNBURG INVESTMENT TRUST <acronym title="Central Index Key">CIK</acronym>#: <a href="/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0000816153&amp;owner=include&amp;count=40">0000816153 (see all company filings)</a></span>
+         <p class="identInfo">State location: <a href="/cgi-bin/browse-edgar?action=getcompany&amp;State=NM&amp;owner=include&amp;count=40">NM</a> | State of Inc.: <strong>MA</strong> | Fiscal Year End: 0930<br />formerly: THORNBURG INCOME TRUST (filings through 1995-05-31)<br />Series: <strong>S000011850</strong>&nbsp;Thornburg Core Growth Fund&nbsp;<br /><a href="/cgi-bin/browse-edgar?scd=series&amp;CIK=0000816153&amp;action=getcompany">(List all Funds and Classes/Contracts for THORNBURG INVESTMENT TRUST)</a></p>
+      </div>
+   </div>
+   <div style="width: 100%;">
+      <form method="GET" action="/cgi-bin/browse-edgar">
+         <input type="hidden" name="action" value="getcompany">
+         <input type="hidden" name="CIK" value="S000011850">
+         <table style="margin: 0px; background:#FFFFFF; border: 1px solid #BCD6F8; width: 100%;">
+            <tr>
+               <td>Filter Results:</td>
+               <td><label for="type">Filing Type:</label><br /><input name="type" size="10" tabindex="1" id="type" value=""></td>
+               <td><label for="prior_to">Prior to:</label> (YYYYMMDD)<br /><input name="dateb" size="10" tabindex="2" id="prior_to" value=""></td>
+               <td><label for="count">Limit Results Per Page</label><br />
+					 <select name="count" id="count" tabindex="6">
+                     <option value="10" >10 Entries
+                     <option value="20" >20 Entries
+                     <option value="40"  selected>40 Entries
+                     <option value="80" >80 Entries
+                     <option value="100" >100 Entries
+                  </select>
+               </td>
+               <td style="text-align: middle;"><input type="submit" value="Search"><br /><input type="submit" onClick="this.form.type.value=''" value="Show All"><br /><input type="submit" onClick="this.form.type.value='485'" value="Prospectuses"><br /><input type="submit" onClick="this.form.type.value='N-PX'" value="Proxy Voting Records"><input type="hidden" name="scd" value="filings"></td>
+            </tr>
+         </table>
+      </form>
+   </div>
+<!-- END FILER DIV -->
+   <div style="margin-top: 5px; margin-bottom: 5px;">
+      <form>
+         <table border="0" width="100%">
+            <tr>
+               <td>Items 1 - 40&nbsp;&nbsp;<a href="/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0000816153&amp;CIK=0000816153&amp;type=&amp;dateb=&amp;owner=include&amp;start=0&amp;count=40&amp;output=atom"><img src="/images/rss-feed-icon-14x14.png" alt="0000816153 Filings" border="0" align="top" /> RSS Feed</a></td>
+               <td style="text-align: right;"> <input type="button" value="Next 40" onClick="parent.location='/cgi-bin/browse-edgar?action=getcompany&amp;CIK=S000011850&amp;scd=filings&amp;type=&amp;dateb=&amp;owner=include&amp;start=40&amp;count=40'"></td>
+            </tr>
+         </table>
+      </form>
+   </div>
+   <div id="seriesDiv" style="margin-top: 0px;">
+      <table class="tableFile2" summary="Results">
+         <tr>
+            <th width="7%" scope="col">Filings</th>
+            <th width="10%" scope="col">Format</th>
+            <th scope="col">Description</th>
+            <th width="10%" scope="col">Filing Date</th>
+            <th width="15%" scope="col">File/Film Number</th>
+         </tr>
+<tr>
+<td nowrap="nowrap">N-CSRS</td>
+<td nowrap="nowrap"><a href="/Archives/edgar/data/816153/000119312518175179/0001193125-18-175179-index.htm" id="documentsbutton">&nbsp;Documents</a></td>
+<td class="small" >Certified Shareholder Report, Semi-Annual<br />Acc-no: 0001193125-18-175179&nbsp;(40 Act)&nbsp; Size: 19 MB            </td>
+            <td>2018-05-25</td>
+            <td nowrap="nowrap"><a href="/cgi-bin/browse-edgar?action=getcompany&amp;filenum=811-05201&amp;owner=include&amp;count=40">811-05201</a><br>18861441         </td>
+         </tr>
+<tr class="blueRow">
+<td nowrap="nowrap">NSAR-A</td>
+<td nowrap="nowrap"><a href="/Archives/edgar/data/816153/000090601318000004/0000906013-18-000004-index.htm" id="documentsbutton">&nbsp;Documents</a></td>
+<td class="small" >Semi-annual report for management companies<br />Acc-no: 0000906013-18-000004&nbsp;(40 Act)&nbsp; Size: 118 KB            </td>
+            <td>2018-05-25</td>
+            <td nowrap="nowrap"><a href="/cgi-bin/browse-edgar?action=getcompany&amp;filenum=811-05201&amp;owner=include&amp;count=40">811-05201</a><br>18861430         </td>
+         </tr>
+<tr>
+<td nowrap="nowrap">485APOS</td>
+<td nowrap="nowrap"><a href="/Archives/edgar/data/816153/000138713118001551/0001387131-18-001551-index.htm" id="documentsbutton">&nbsp;Documents</a></td>
+<td class="small" >Post-effective amendment [Rule 485(a)]<br />Acc-no: 0001387131-18-001551&nbsp;(40 Act)&nbsp; Size: 13 MB            </td>
+            <td>2018-04-12</td>
+            <td nowrap="nowrap"><a href="/cgi-bin/browse-edgar?action=getcompany&amp;filenum=811-05201&amp;owner=include&amp;count=40">811-05201</a><br>18751640         </td>
+         </tr>
+<tr class="blueRow">
+<td nowrap="nowrap">485APOS</td>
+<td nowrap="nowrap"><a href="/Archives/edgar/data/816153/000138713118001551/0001387131-18-001551-index.htm" id="documentsbutton">&nbsp;Documents</a></td>
+<td class="small" >Post-effective amendment [Rule 485(a)]<br />Acc-no: 0001387131-18-001551&nbsp;(33 Act)&nbsp; Size: 13 MB            </td>
+            <td>2018-04-12</td>
+            <td nowrap="nowrap"><a href="/cgi-bin/browse-edgar?action=getcompany&amp;filenum=033-14905&amp;owner=include&amp;count=40">033-14905</a><br>18751639         </td>
+         </tr>
+<tr>
+<td nowrap="nowrap">497</td>
+<td nowrap="nowrap"><a href="/Archives/edgar/data/816153/000138713118000896/0001387131-18-000896-index.htm" id="documentsbutton">&nbsp;Documents</a></td>
+<td class="small" >Definitive materials<br />Acc-no: 0001387131-18-000896&nbsp;(33 Act)&nbsp; Size: 84 KB            </td>
+            <td>2018-03-02</td>
+            <td nowrap="nowrap"><a href="/cgi-bin/browse-edgar?action=getcompany&amp;filenum=033-14905&amp;owner=include&amp;count=40">033-14905</a><br>18661443         </td>
+         </tr>
+<tr class="blueRow">
+<td nowrap="nowrap">N-Q</td>
+<td nowrap="nowrap"><a href="/Archives/edgar/data/816153/000119312518061172/0001193125-18-061172-index.htm" id="documentsbutton">&nbsp;Documents</a></td>
+<td class="small" >Quarterly Schedule of portfolio holdings of management investment companies<br />Acc-no: 0001193125-18-061172&nbsp;(40 Act)&nbsp; Size: 7 MB            </td>
+            <td>2018-02-27</td>
+            <td nowrap="nowrap"><a href="/cgi-bin/browse-edgar?action=getcompany&amp;filenum=811-05201&amp;owner=include&amp;count=40">811-05201</a><br>18646477         </td>
+         </tr>
+<tr>
+<td nowrap="nowrap">497</td>
+<td nowrap="nowrap"><a href="/Archives/edgar/data/816153/000138713118000749/0001387131-18-000749-index.htm" id="documentsbutton">&nbsp;Documents</a>&nbsp; <a href="/cgi-bin/viewer?action=view&amp;cik=816153&amp;accession_number=0001387131-18-000749&amp;xbrl_type=r" id="interactiveDataBtn">&nbsp;Interactive Data</a></td>
+<td class="small" >Definitive materials<br />Acc-no: 0001387131-18-000749&nbsp;(33 Act)&nbsp; Size: 12 MB            </td>
+            <td>2018-02-23</td>
+            <td nowrap="nowrap"><a href="/cgi-bin/browse-edgar?action=getcompany&amp;filenum=033-14905&amp;owner=include&amp;count=40">033-14905</a><br>18634242         </td>
+         </tr>
+<tr class="blueRow">
+<td nowrap="nowrap">485BPOS</td>
+<td nowrap="nowrap"><a href="/Archives/edgar/data/816153/000138713118000586/0001387131-18-000586-index.htm" id="documentsbutton">&nbsp;Documents</a>&nbsp; <a href="/cgi-bin/viewer?action=view&amp;cik=816153&amp;accession_number=0001387131-18-000586&amp;xbrl_type=r" id="interactiveDataBtn">&nbsp;Interactive Data</a></td>
+<td class="small" >Post-effective amendment [Rule 485(b)]<br />Acc-no: 0001387131-18-000586&nbsp;(33 Act)&nbsp; Size: 12 MB            </td>
+            <td>2018-02-14</td>
+            <td nowrap="nowrap"><a href="/cgi-bin/browse-edgar?action=getcompany&amp;filenum=033-14905&amp;owner=include&amp;count=40">033-14905</a><br>18605744         </td>
+         </tr>
+<tr>
+<td nowrap="nowrap">485BPOS</td>
+<td nowrap="nowrap"><a href="/Archives/edgar/data/816153/000138713118000586/0001387131-18-000586-index.htm" id="documentsbutton">&nbsp;Documents</a>&nbsp; <a href="/cgi-bin/viewer?action=view&amp;cik=816153&amp;accession_number=0001387131-18-000586&amp;xbrl_type=r" id="interactiveDataBtn">&nbsp;Interactive Data</a></td>
+<td class="small" >Post-effective amendment [Rule 485(b)]<br />Acc-no: 0001387131-18-000586&nbsp;(40 Act)&nbsp; Size: 12 MB            </td>
+            <td>2018-02-14</td>
+            <td nowrap="nowrap"><a href="/cgi-bin/browse-edgar?action=getcompany&amp;filenum=811-05201&amp;owner=include&amp;count=40">811-05201</a><br>18605745         </td>
+         </tr>
+<tr class="blueRow">
+<td nowrap="nowrap">497</td>
+<td nowrap="nowrap"><a href="/Archives/edgar/data/816153/000138713118000435/0001387131-18-000435-index.htm" id="documentsbutton">&nbsp;Documents</a></td>
+<td class="small" >Definitive materials<br />Acc-no: 0001387131-18-000435&nbsp;(33 Act)&nbsp; Size: 11 MB            </td>
+            <td>2018-02-02</td>
+            <td nowrap="nowrap"><a href="/cgi-bin/browse-edgar?action=getcompany&amp;filenum=033-14905&amp;owner=include&amp;count=40">033-14905</a><br>18570363         </td>
+         </tr>
+<tr>
+<td nowrap="nowrap">497J</td>
+<td nowrap="nowrap"><a href="/Archives/edgar/data/816153/000138713118000409/0001387131-18-000409-index.htm" id="documentsbutton">&nbsp;Documents</a></td>
+<td class="small" >Certification of no change in definitive materials<br />Acc-no: 0001387131-18-000409&nbsp;(33 Act)&nbsp; Size: 28 KB            </td>
+            <td>2018-02-01</td>
+            <td nowrap="nowrap"><a href="/cgi-bin/browse-edgar?action=getcompany&amp;filenum=033-14905&amp;owner=include&amp;count=40">033-14905</a><br>18565550         </td>
+         </tr>
+<tr class="blueRow">
+<td nowrap="nowrap">497K</td>
+<td nowrap="nowrap"><a href="/Archives/edgar/data/816153/000138713118000383/0001387131-18-000383-index.htm" id="documentsbutton">&nbsp;Documents</a></td>
+<td class="small" >Summary Prospectus for certain open-end management investment companies filed pursuant to Securities Act Rule 497(K)<br />Acc-no: 0001387131-18-000383&nbsp;(33 Act)&nbsp; Size: 191 KB            </td>
+            <td>2018-01-31</td>
+            <td nowrap="nowrap"><a href="/cgi-bin/browse-edgar?action=getcompany&amp;filenum=033-14905&amp;owner=include&amp;count=40">033-14905</a><br>18562186         </td>
+         </tr>
+<tr>
+<td nowrap="nowrap">497K</td>
+<td nowrap="nowrap"><a href="/Archives/edgar/data/816153/000138713118000359/0001387131-18-000359-index.htm" id="documentsbutton">&nbsp;Documents</a></td>
+<td class="small" >Summary Prospectus for certain open-end management investment companies filed pursuant to Securities Act Rule 497(K)<br />Acc-no: 0001387131-18-000359&nbsp;(33 Act)&nbsp; Size: 215 KB            </td>
+            <td>2018-01-31</td>
+            <td nowrap="nowrap"><a href="/cgi-bin/browse-edgar?action=getcompany&amp;filenum=033-14905&amp;owner=include&amp;count=40">033-14905</a><br>18562050         </td>
+         </tr>
+<tr class="blueRow">
+<td nowrap="nowrap">485BPOS</td>
+<td nowrap="nowrap"><a href="/Archives/edgar/data/816153/000138713118000320/0001387131-18-000320-index.htm" id="documentsbutton">&nbsp;Documents</a></td>
+<td class="small" >Post-effective amendment [Rule 485(b)]<br />Acc-no: 0001387131-18-000320&nbsp;(33 Act)&nbsp; Size: 15 MB            </td>
+            <td>2018-01-30</td>
+            <td nowrap="nowrap"><a href="/cgi-bin/browse-edgar?action=getcompany&amp;filenum=033-14905&amp;owner=include&amp;count=40">033-14905</a><br>18559308         </td>
+         </tr>
+<tr>
+<td nowrap="nowrap">485BPOS</td>
+<td nowrap="nowrap"><a href="/Archives/edgar/data/816153/000138713118000320/0001387131-18-000320-index.htm" id="documentsbutton">&nbsp;Documents</a></td>
+<td class="small" >Post-effective amendment [Rule 485(b)]<br />Acc-no: 0001387131-18-000320&nbsp;(40 Act)&nbsp; Size: 15 MB            </td>
+            <td>2018-01-30</td>
+            <td nowrap="nowrap"><a href="/cgi-bin/browse-edgar?action=getcompany&amp;filenum=811-05201&amp;owner=include&amp;count=40">811-05201</a><br>18559309         </td>
+         </tr>
+<tr class="blueRow">
+<td nowrap="nowrap">24F-2NT</td>
+<td nowrap="nowrap"><a href="/Archives/edgar/data/816153/000119312517366991/0001193125-17-366991-index.htm" id="documentsbutton">&nbsp;Documents</a></td>
+<td class="small" >Rule 24F-2 notice<br />Acc-no: 0001193125-17-366991&nbsp;(33 Act)&nbsp; Size: 60 KB            </td>
+            <td>2017-12-12</td>
+            <td nowrap="nowrap"><a href="/cgi-bin/browse-edgar?action=getcompany&amp;filenum=033-14905&amp;owner=include&amp;count=40">033-14905</a><br>171251129         </td>
+         </tr>
+<tr>
+<td nowrap="nowrap">485APOS</td>
+<td nowrap="nowrap"><a href="/Archives/edgar/data/816153/000119312517356726/0001193125-17-356726-index.htm" id="documentsbutton">&nbsp;Documents</a></td>
+<td class="small" >Post-effective amendment [Rule 485(a)]<br />Acc-no: 0001193125-17-356726&nbsp;(33 Act)&nbsp; Size: 6 MB            </td>
+            <td>2017-11-30</td>
+            <td nowrap="nowrap"><a href="/cgi-bin/browse-edgar?action=getcompany&amp;filenum=033-14905&amp;owner=include&amp;count=40">033-14905</a><br>171230529         </td>
+         </tr>
+<tr class="blueRow">
+<td nowrap="nowrap">485APOS</td>
+<td nowrap="nowrap"><a href="/Archives/edgar/data/816153/000119312517356726/0001193125-17-356726-index.htm" id="documentsbutton">&nbsp;Documents</a></td>
+<td class="small" >Post-effective amendment [Rule 485(a)]<br />Acc-no: 0001193125-17-356726&nbsp;(40 Act)&nbsp; Size: 6 MB            </td>
+            <td>2017-11-30</td>
+            <td nowrap="nowrap"><a href="/cgi-bin/browse-edgar?action=getcompany&amp;filenum=811-05201&amp;owner=include&amp;count=40">811-05201</a><br>171230530         </td>
+         </tr>
+<tr>
+<td nowrap="nowrap">NSAR-B</td>
+<td nowrap="nowrap"><a href="/Archives/edgar/data/816153/000119312517353596/0001193125-17-353596-index.htm" id="documentsbutton">&nbsp;Documents</a></td>
+<td class="small" >Annual report for management companies<br />Acc-no: 0001193125-17-353596&nbsp;(40 Act)&nbsp; Size: 133 KB            </td>
+            <td>2017-11-28</td>
+            <td nowrap="nowrap"><a href="/cgi-bin/browse-edgar?action=getcompany&amp;filenum=811-05201&amp;owner=include&amp;count=40">811-05201</a><br>171225086         </td>
+         </tr>
+<tr class="blueRow">
+<td nowrap="nowrap">N-CSR</td>
+<td nowrap="nowrap"><a href="/Archives/edgar/data/816153/000119312517352666/0001193125-17-352666-index.htm" id="documentsbutton">&nbsp;Documents</a></td>
+<td class="small" >Certified Shareholder Report<br />Acc-no: 0001193125-17-352666&nbsp;(40 Act)&nbsp; Size: 35 MB            </td>
+            <td>2017-11-28</td>
+            <td nowrap="nowrap"><a href="/cgi-bin/browse-edgar?action=getcompany&amp;filenum=811-05201&amp;owner=include&amp;count=40">811-05201</a><br>171223716         </td>
+         </tr>
+<tr>
+<td nowrap="nowrap">497</td>
+<td nowrap="nowrap"><a href="/Archives/edgar/data/816153/000119312517280162/0001193125-17-280162-index.htm" id="documentsbutton">&nbsp;Documents</a></td>
+<td class="small" >Definitive materials<br />Acc-no: 0001193125-17-280162&nbsp;(33 Act)&nbsp; Size: 20 KB            </td>
+            <td>2017-09-08</td>
+            <td nowrap="nowrap"><a href="/cgi-bin/browse-edgar?action=getcompany&amp;filenum=033-14905&amp;owner=include&amp;count=40">033-14905</a><br>171075640         </td>
+         </tr>
+<tr class="blueRow">
+<td nowrap="nowrap">N-Q</td>
+<td nowrap="nowrap"><a href="/Archives/edgar/data/816153/000119312517269932/0001193125-17-269932-index.htm" id="documentsbutton">&nbsp;Documents</a></td>
+<td class="small" >Quarterly Schedule of portfolio holdings of management investment companies<br />Acc-no: 0001193125-17-269932&nbsp;(40 Act)&nbsp; Size: 8 MB            </td>
+            <td>2017-08-28</td>
+            <td nowrap="nowrap"><a href="/cgi-bin/browse-edgar?action=getcompany&amp;filenum=811-05201&amp;owner=include&amp;count=40">811-05201</a><br>171053893         </td>
+         </tr>
+<tr>
+<td nowrap="nowrap">N-PX</td>
+<td nowrap="nowrap"><a href="/Archives/edgar/data/816153/000119312517252679/0001193125-17-252679-index.htm" id="documentsbutton">&nbsp;Documents</a></td>
+<td class="small" >Annual Report of proxy voting record of management investment companies<br />Acc-no: 0001193125-17-252679&nbsp;(40 Act)&nbsp; Size: 2 MB            </td>
+            <td>2017-08-09</td>
+            <td nowrap="nowrap"><a href="/cgi-bin/browse-edgar?action=getcompany&amp;filenum=811-05201&amp;owner=include&amp;count=40">811-05201</a><br>171017677         </td>
+         </tr>
+<tr class="blueRow">
+<td nowrap="nowrap">497</td>
+<td nowrap="nowrap"><a href="/Archives/edgar/data/816153/000119312517211911/0001193125-17-211911-index.htm" id="documentsbutton">&nbsp;Documents</a></td>
+<td class="small" >Definitive materials<br />Acc-no: 0001193125-17-211911&nbsp;(33 Act)&nbsp; Size: 27 KB            </td>
+            <td>2017-06-23</td>
+            <td nowrap="nowrap"><a href="/cgi-bin/browse-edgar?action=getcompany&amp;filenum=033-14905&amp;owner=include&amp;count=40">033-14905</a><br>17928341         </td>
+         </tr>
+<tr>
+<td nowrap="nowrap">N-CSRS</td>
+<td nowrap="nowrap"><a href="/Archives/edgar/data/816153/000119312517185333/0001193125-17-185333-index.htm" id="documentsbutton">&nbsp;Documents</a></td>
+<td class="small" >Certified Shareholder Report, Semi-Annual<br />Acc-no: 0001193125-17-185333&nbsp;(40 Act)&nbsp; Size: 33 MB            </td>
+            <td>2017-05-26</td>
+            <td nowrap="nowrap"><a href="/cgi-bin/browse-edgar?action=getcompany&amp;filenum=811-05201&amp;owner=include&amp;count=40">811-05201</a><br>17873575         </td>
+         </tr>
+<tr class="blueRow">
+<td nowrap="nowrap">NSAR-A</td>
+<td nowrap="nowrap"><a href="/Archives/edgar/data/816153/000119312517183914/0001193125-17-183914-index.htm" id="documentsbutton">&nbsp;Documents</a></td>
+<td class="small" >Semi-annual report for management companies<br />Acc-no: 0001193125-17-183914&nbsp;(40 Act)&nbsp; Size: 116 KB            </td>
+            <td>2017-05-25</td>
+            <td nowrap="nowrap"><a href="/cgi-bin/browse-edgar?action=getcompany&amp;filenum=811-05201&amp;owner=include&amp;count=40">811-05201</a><br>17871023         </td>
+         </tr>
+<tr>
+<td nowrap="nowrap">485BPOS</td>
+<td nowrap="nowrap"><a href="/Archives/edgar/data/816153/000119312517138813/0001193125-17-138813-index.htm" id="documentsbutton">&nbsp;Documents</a>&nbsp; <a href="/cgi-bin/viewer?action=view&amp;cik=816153&amp;accession_number=0001193125-17-138813&amp;xbrl_type=r" id="interactiveDataBtn">&nbsp;Interactive Data</a></td>
+<td class="small" >Post-effective amendment [Rule 485(b)]<br />Acc-no: 0001193125-17-138813&nbsp;(40 Act)&nbsp; Size: 25 MB            </td>
+            <td>2017-04-26</td>
+            <td nowrap="nowrap"><a href="/cgi-bin/browse-edgar?action=getcompany&amp;filenum=811-05201&amp;owner=include&amp;count=40">811-05201</a><br>17783405         </td>
+         </tr>
+<tr class="blueRow">
+<td nowrap="nowrap">485BPOS</td>
+<td nowrap="nowrap"><a href="/Archives/edgar/data/816153/000119312517138813/0001193125-17-138813-index.htm" id="documentsbutton">&nbsp;Documents</a>&nbsp; <a href="/cgi-bin/viewer?action=view&amp;cik=816153&amp;accession_number=0001193125-17-138813&amp;xbrl_type=r" id="interactiveDataBtn">&nbsp;Interactive Data</a></td>
+<td class="small" >Post-effective amendment [Rule 485(b)]<br />Acc-no: 0001193125-17-138813&nbsp;(33 Act)&nbsp; Size: 25 MB            </td>
+            <td>2017-04-26</td>
+            <td nowrap="nowrap"><a href="/cgi-bin/browse-edgar?action=getcompany&amp;filenum=033-14905&amp;owner=include&amp;count=40">033-14905</a><br>17783404         </td>
+         </tr>
+<tr>
+<td nowrap="nowrap">497J</td>
+<td nowrap="nowrap"><a href="/Archives/edgar/data/816153/000119312517118894/0001193125-17-118894-index.htm" id="documentsbutton">&nbsp;Documents</a></td>
+<td class="small" >Certification of no change in definitive materials<br />Acc-no: 0001193125-17-118894&nbsp;(33 Act)&nbsp; Size: 24 KB            </td>
+            <td>2017-04-11</td>
+            <td nowrap="nowrap"><a href="/cgi-bin/browse-edgar?action=getcompany&amp;filenum=033-14905&amp;owner=include&amp;count=40">033-14905</a><br>17754583         </td>
+         </tr>
+<tr class="blueRow">
+<td nowrap="nowrap">497K</td>
+<td nowrap="nowrap"><a href="/Archives/edgar/data/816153/000119312517115806/0001193125-17-115806-index.htm" id="documentsbutton">&nbsp;Documents</a></td>
+<td class="small" >Summary Prospectus for certain open-end management investment companies filed pursuant to Securities Act Rule 497(K)<br />Acc-no: 0001193125-17-115806&nbsp;(33 Act)&nbsp; Size: 121 KB            </td>
+            <td>2017-04-07</td>
+            <td nowrap="nowrap"><a href="/cgi-bin/browse-edgar?action=getcompany&amp;filenum=033-14905&amp;owner=include&amp;count=40">033-14905</a><br>17748904         </td>
+         </tr>
+<tr>
+<td nowrap="nowrap">497K</td>
+<td nowrap="nowrap"><a href="/Archives/edgar/data/816153/000119312517115654/0001193125-17-115654-index.htm" id="documentsbutton">&nbsp;Documents</a></td>
+<td class="small" >Summary Prospectus for certain open-end management investment companies filed pursuant to Securities Act Rule 497(K)<br />Acc-no: 0001193125-17-115654&nbsp;(33 Act)&nbsp; Size: 83 KB            </td>
+            <td>2017-04-07</td>
+            <td nowrap="nowrap"><a href="/cgi-bin/browse-edgar?action=getcompany&amp;filenum=033-14905&amp;owner=include&amp;count=40">033-14905</a><br>17748662         </td>
+         </tr>
+<tr class="blueRow">
+<td nowrap="nowrap">485BPOS</td>
+<td nowrap="nowrap"><a href="/Archives/edgar/data/816153/000119312517114110/0001193125-17-114110-index.htm" id="documentsbutton">&nbsp;Documents</a></td>
+<td class="small" >Post-effective amendment [Rule 485(b)]<br />Acc-no: 0001193125-17-114110&nbsp;(40 Act)&nbsp; Size: 7 MB            </td>
+            <td>2017-04-07</td>
+            <td nowrap="nowrap"><a href="/cgi-bin/browse-edgar?action=getcompany&amp;filenum=811-05201&amp;owner=include&amp;count=40">811-05201</a><br>17747162         </td>
+         </tr>
+<tr>
+<td nowrap="nowrap">485BPOS</td>
+<td nowrap="nowrap"><a href="/Archives/edgar/data/816153/000119312517114110/0001193125-17-114110-index.htm" id="documentsbutton">&nbsp;Documents</a></td>
+<td class="small" >Post-effective amendment [Rule 485(b)]<br />Acc-no: 0001193125-17-114110&nbsp;(33 Act)&nbsp; Size: 7 MB            </td>
+            <td>2017-04-07</td>
+            <td nowrap="nowrap"><a href="/cgi-bin/browse-edgar?action=getcompany&amp;filenum=033-14905&amp;owner=include&amp;count=40">033-14905</a><br>17747161         </td>
+         </tr>
+<tr class="blueRow">
+<td nowrap="nowrap">N-Q</td>
+<td nowrap="nowrap"><a href="/Archives/edgar/data/816153/000119312517065521/0001193125-17-065521-index.htm" id="documentsbutton">&nbsp;Documents</a></td>
+<td class="small" >Quarterly Schedule of portfolio holdings of management investment companies<br />Acc-no: 0001193125-17-065521&nbsp;(40 Act)&nbsp; Size: 8 MB            </td>
+            <td>2017-03-01</td>
+            <td nowrap="nowrap"><a href="/cgi-bin/browse-edgar?action=getcompany&amp;filenum=811-05201&amp;owner=include&amp;count=40">811-05201</a><br>17653821         </td>
+         </tr>
+<tr>
+<td nowrap="nowrap">485BPOS</td>
+<td nowrap="nowrap"><a href="/Archives/edgar/data/816153/000119312517044859/0001193125-17-044859-index.htm" id="documentsbutton">&nbsp;Documents</a>&nbsp; <a href="/cgi-bin/viewer?action=view&amp;cik=816153&amp;accession_number=0001193125-17-044859&amp;xbrl_type=r" id="interactiveDataBtn">&nbsp;Interactive Data</a></td>
+<td class="small" >Post-effective amendment [Rule 485(b)]<br />Acc-no: 0001193125-17-044859&nbsp;(40 Act)&nbsp; Size: 24 MB            </td>
+            <td>2017-02-15</td>
+            <td nowrap="nowrap"><a href="/cgi-bin/browse-edgar?action=getcompany&amp;filenum=811-05201&amp;owner=include&amp;count=40">811-05201</a><br>17613729         </td>
+         </tr>
+<tr class="blueRow">
+<td nowrap="nowrap">485BPOS</td>
+<td nowrap="nowrap"><a href="/Archives/edgar/data/816153/000119312517044859/0001193125-17-044859-index.htm" id="documentsbutton">&nbsp;Documents</a>&nbsp; <a href="/cgi-bin/viewer?action=view&amp;cik=816153&amp;accession_number=0001193125-17-044859&amp;xbrl_type=r" id="interactiveDataBtn">&nbsp;Interactive Data</a></td>
+<td class="small" >Post-effective amendment [Rule 485(b)]<br />Acc-no: 0001193125-17-044859&nbsp;(33 Act)&nbsp; Size: 24 MB            </td>
+            <td>2017-02-15</td>
+            <td nowrap="nowrap"><a href="/cgi-bin/browse-edgar?action=getcompany&amp;filenum=033-14905&amp;owner=include&amp;count=40">033-14905</a><br>17613728         </td>
+         </tr>
+<tr>
+<td nowrap="nowrap">485APOS</td>
+<td nowrap="nowrap"><a href="/Archives/edgar/data/816153/000119312517035908/0001193125-17-035908-index.htm" id="documentsbutton">&nbsp;Documents</a></td>
+<td class="small" >Post-effective amendment [Rule 485(a)]<br />Acc-no: 0001193125-17-035908&nbsp;(40 Act)&nbsp; Size: 6 MB            </td>
+            <td>2017-02-09</td>
+            <td nowrap="nowrap"><a href="/cgi-bin/browse-edgar?action=getcompany&amp;filenum=811-05201&amp;owner=include&amp;count=40">811-05201</a><br>17587110         </td>
+         </tr>
+<tr class="blueRow">
+<td nowrap="nowrap">485APOS</td>
+<td nowrap="nowrap"><a href="/Archives/edgar/data/816153/000119312517035908/0001193125-17-035908-index.htm" id="documentsbutton">&nbsp;Documents</a></td>
+<td class="small" >Post-effective amendment [Rule 485(a)]<br />Acc-no: 0001193125-17-035908&nbsp;(33 Act)&nbsp; Size: 6 MB            </td>
+            <td>2017-02-09</td>
+            <td nowrap="nowrap"><a href="/cgi-bin/browse-edgar?action=getcompany&amp;filenum=033-14905&amp;owner=include&amp;count=40">033-14905</a><br>17587109         </td>
+         </tr>
+<tr>
+<td nowrap="nowrap">497J</td>
+<td nowrap="nowrap"><a href="/Archives/edgar/data/816153/000119312517028471/0001193125-17-028471-index.htm" id="documentsbutton">&nbsp;Documents</a></td>
+<td class="small" >Certification of no change in definitive materials<br />Acc-no: 0001193125-17-028471&nbsp;(33 Act)&nbsp; Size: 26 KB            </td>
+            <td>2017-02-02</td>
+            <td nowrap="nowrap"><a href="/cgi-bin/browse-edgar?action=getcompany&amp;filenum=033-14905&amp;owner=include&amp;count=40">033-14905</a><br>17567264         </td>
+         </tr>
+<tr class="blueRow">
+<td nowrap="nowrap">485BPOS</td>
+<td nowrap="nowrap"><a href="/Archives/edgar/data/816153/000119312517025433/0001193125-17-025433-index.htm" id="documentsbutton">&nbsp;Documents</a></td>
+<td class="small" >Post-effective amendment [Rule 485(b)]<br />Acc-no: 0001193125-17-025433&nbsp;(33 Act)&nbsp; Size: 7 MB            </td>
+            <td>2017-01-31</td>
+            <td nowrap="nowrap"><a href="/cgi-bin/browse-edgar?action=getcompany&amp;filenum=033-14905&amp;owner=include&amp;count=40">033-14905</a><br>17560679         </td>
+         </tr>
+      </table>
+   </div>
+   <div style="margin-top: 5px; margin-bottom: 5px;">
+      <form>
+         <table border="0" width="100%">
+            <tr>
+               <td style="text-align: right;"> <input type="button" value="Next 40" onClick="parent.location='/cgi-bin/browse-edgar?action=getcompany&amp;CIK=S000011850&amp;scd=filings&amp;type=&amp;dateb=&amp;owner=include&amp;start=40&amp;count=40'"></td>
+            </tr>
+         </table>
+      </form>
+   </div>
+</div>
+
+<!-- BEGIN FOOTER -->
+<div id="footer">
+  <div class="currentURL">http://www.sec.gov/cgi-bin/browse-edgar</div>
+  <div class="links"><a href="/index.htm">Home</a> | <a href="/edgar/searchedgar/webusers.htm">Search the Next-Generation EDGAR System</a> | <a href="javascript:history.back()">Previous Page</a></div>
+  <div class="modified">Modified 07/18/2014</div>
+</div>
+<!-- END FOOTER -->
+
+</body>
+</html>
