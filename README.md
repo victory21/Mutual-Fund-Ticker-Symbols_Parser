@@ -1,4 +1,7 @@
 # SEC-Website-Parser-for-Mutual-Fund-Ticker-Symbols
+
+web parsing and CSV file output
+
 parses the SEC database of mutual fund ticker symbols to find key dates and other information
 
 obtains data about funds and indexs from 'www.sec.gov'
